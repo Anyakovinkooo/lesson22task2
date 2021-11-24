@@ -41,6 +41,21 @@ span {
   }
 }
 @media screen and (min-width: 900px) {
+  .navigation {
+    width: 1.3vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .products-list {
+    width: 1.3vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .news {
+    width: 1.3vw;
+  }
+}
+@media screen and (min-width: 900px) {
   .content {
     display: flex;
   }
