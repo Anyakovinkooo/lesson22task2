@@ -1,12 +1,10 @@
 .navigation {
-  width: 50%;
   display: flex;
   background-color: #ff7f50;
   min-height: 200px;
   flex-grow: 1;
 }
 .products-list {
-  width: 50%;
   display: flex;
   background-color: #006400;
   min-height: 200px;
@@ -25,6 +23,16 @@ span {
   background-color: #faebd7;
   border-radius: 4px;
   margin: auto;
+}
+@media screen and (min-width: 600px) {
+  .products-list {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .navigation {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 600px) {
   .products {
