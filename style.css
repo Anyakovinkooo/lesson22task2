@@ -1,10 +1,12 @@
 .navigation {
+  width: 50%;
   display: flex;
   background-color: #ff7f50;
   min-height: 200px;
   flex-grow: 1;
 }
 .products-list {
+  width: 50%;
   display: flex;
   background-color: #006400;
   min-height: 200px;
